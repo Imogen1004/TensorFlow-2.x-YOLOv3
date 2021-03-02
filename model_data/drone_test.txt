@@ -1,0 +1,100 @@
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto10412.png 133,296,659,446,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02611.png 279,110,963,420,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01132.png 249,72,922,603,0 868,211,1280,391,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1135.jpg 166,97,530,277,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1121.jpg 102,153,218,204,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00987.png 465,246,1133,418,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01045.png 237,70,920,600,0 865,201,1280,597,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto10789.png 463,207,739,438,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto05192.png 620,191,915,282,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01451.png 118,95,1198,720,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto04931.png 499,91,957,210,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1127.jpg 219,38,287,81,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1133.jpg 196,38,1168,711,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto10818.png 439,188,844,445,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto05018.png 716,185,887,248,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01335.png 150,319,671,445,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto10760.png 543,186,782,395,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto03046.png 337,231,859,357,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00407.png 192,272,677,647,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1130.jpg 93,171,1092,612,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00349.png 180,250,718,405,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1143.jpg 207,57,363,178,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1157.jpg 16,210,697,415,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02698.png 261,158,1062,411,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto05134.png 677,197,898,258,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1156.jpg 252,434,986,817,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto10499.png 171,289,647,432,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01219.png 172,319,696,419,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1168.jpg 62,194,733,435,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1154.jpg 302,309,989,746,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01190.png 244,84,915,590,0 861,213,1280,376,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02843.png 602,270,678,347,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01422.png 75,56,785,615,0 773,99,1280,623,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01393.png 107,58,814,624,0 799,100,1280,621,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1155.jpg 18,192,558,322,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1169.jpg 125,113,378,348,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1144.jpg 12,92,996,616,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1150.jpg 359,264,659,391,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00842.png 171,304,716,415,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1146.jpg 23,6,285,159,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00465.png 151,257,693,396,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto10702.png 143,338,635,495,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto06410.png 380,226,1133,406,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto06439.png 354,190,1169,410,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00262.png 215,322,761,496,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02930.png 628,264,668,310,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02901.png 634,261,680,318,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1162.jpg 17,27,423,351,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00291.png 218,340,747,490,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02727.png 293,142,1071,403,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00871.png 161,282,698,393,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto05076.png 709,192,879,262,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1161.jpg 46,10,309,139,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto10731.png 458,147,714,350,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto03017.png 314,205,886,368,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01364.png 122,42,834,620,0 827,90,1280,633,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto04989.png 672,157,842,257,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1148.jpg 120,39,866,408,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00494.png 149,277,694,460,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02640.png 326,138,1036,386,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02669.png 215,132,1042,404,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02872.png 620,264,676,322,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1159.jpg 3,175,296,386,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00320.png 219,327,747,481,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01016.png 457,247,1156,389,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto10441.png 120,315,647,438,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00929.png 176,311,702,453,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto09716.png 152,356,626,485,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00900.png 165,308,694,433,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01161.png 261,89,919,611,0 885,208,1280,380,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1172.jpg 24,9,1492,695,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1166.jpg 97,93,470,419,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00813.png 165,313,709,434,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00436.png 169,268,684,565,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00378.png 212,277,718,564,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto05163.png 665,195,922,269,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00755.png 159,297,698,433,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02988.png 299,255,832,455,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto10383.png 192,312,632,417,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02785.png 372,245,994,427,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00958.png 480,268,1108,410,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto06497.png 232,145,1156,372,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto06468.png 280,198,1139,382,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01306.png 150,319,646,482,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02814.png 549,262,678,382,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto10586.png 213,322,650,621,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto03075.png 341,198,778,307,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1117.jpg 148,46,646,266,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1113.jpg 157,50,1472,1022,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01074.png 250,74,926,608,0 868,195,1280,398,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto00784.png 149,272,713,421,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1106.jpg 142,156,606,328,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1112.jpg 110,36,845,430,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02756.png 335,189,999,376,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01277.png 127,328,641,503,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto02959.png 300,238,802,443,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01103.png 239,68,912,613,0 879,212,1280,392,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto10557.png 101,299,663,438,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/pic_1139.jpg 78,171,719,370,0
+/Users/imogen/TensorFlow-2.x-YOLOv3-master/custom_dataset/test/yoto01248.png 137,312,655,442,0

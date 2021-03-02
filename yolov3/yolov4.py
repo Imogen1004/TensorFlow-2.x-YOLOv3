@@ -1,6 +1,6 @@
 #================================================================
 #
-#   File name   : yolov4.py
+#   File name   : yolov3.py
 #   Author      : PyLessons
 #   Created date: 2020-09-31
 #   Website     : https://pylessons.com/
