@@ -17,11 +17,11 @@ from yolov3.utils import detect_image, detect_realtime, detect_video, Load_Yolo_
 from yolov3.configs import *
 
 image_path   = "./IMAGES/kite.jpg"
-video_path   = "./IMAGES/test.mp4"
+video_path   = "./IMAGES/drone.mp4"
 
-yolo = Load_Yolo_model()
+yolo = Load_Yolo_model() 
 detect_image(yolo, image_path, "./IMAGES/kite_pred.jpg", input_size=YOLO_INPUT_SIZE, show=True, rectangle_colors=(255,0,0))
-#detect_video(yolo, video_path, "", input_size=YOLO_INPUT_SIZE, show=False, rectangle_colors=(255,0,0))
+#detect_video(yolo, video_path, "", input_size=YOLO_INPUT_SIZE, show=True,rectangle_colors=(255,0,0))
 #detect_realtime(yolo, '', input_size=YOLO_INPUT_SIZE, show=True, rectangle_colors=(255, 0, 0))
 
 #detect_video_realtime_mp(video_path, "Output.mp4", input_size=YOLO_INPUT_SIZE, show=False, rectangle_colors=(255,0,0), realtime=False)

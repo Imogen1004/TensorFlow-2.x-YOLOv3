@@ -17,6 +17,7 @@ import numpy as np
 import tensorflow as tf
 from yolov3.configs import *
 from yolov3.yolov4 import *
+from tools.Detection_to_XML import CreateXMLfile
 from tensorflow.python.saved_model import tag_constants
 
 def load_yolo_weights(model, weights_file):
@@ -87,16 +88,11 @@ def Load_Yolo_model():
             Darknet_weights = YOLO_V3_TINY_WEIGHTS if TRAIN_YOLO_TINY else YOLO_V3_WEIGHTS
             
         if YOLO_CUSTOM_WEIGHTS == False:
-            print("Loading Darknet_weights from:", Darknet_weights)
             yolo = Create_Yolo(input_size=YOLO_INPUT_SIZE, CLASSES=YOLO_COCO_CLASSES)
             load_yolo_weights(yolo, Darknet_weights) # use Darknet weights
         else:
-            checkpoint = f"./checkpoints/{TRAIN_MODEL_NAME}"
-            if TRAIN_YOLO_TINY:
-                checkpoint += "_Tiny"
-            print("Loading custom weights from:", checkpoint)
             yolo = Create_Yolo(input_size=YOLO_INPUT_SIZE, CLASSES=TRAIN_CLASSES)
-            yolo.load_weights(checkpoint)  # use custom weights
+            yolo.load_weights(f"./checkpoints/{TRAIN_MODEL_NAME}") # use custom weights
         
     elif YOLO_FRAMEWORK == "trt": # TensorRT detection
         saved_model_loaded = tf.saved_model.load(YOLO_CUSTOM_WEIGHTS, tags=[tag_constants.SERVING])
@@ -159,11 +155,7 @@ def draw_bbox(image, bboxes, CLASSES=YOLO_COCO_CLASSES, show_label=True, show_co
 
             if tracking: score_str = " "+str(score)
 
-            try:
-                label = "{}".format(NUM_CLASS[class_ind]) + score_str
-            except KeyError:
-                print("You received KeyError, this might be that you are trying to use yolo original weights")
-                print("while using custom classes, if using custom model in configs.py set YOLO_CUSTOM_WEIGHTS = True")
+            label = "{}".format(NUM_CLASS[class_ind]) + score_str
 
             # get text size
             (text_width, text_height), baseline = cv2.getTextSize(label, cv2.FONT_HERSHEY_COMPLEX_SMALL,
@@ -303,7 +295,7 @@ def detect_image(Yolo, image_path, output_path, input_size=416, show=False, CLAS
     bboxes = nms(bboxes, iou_threshold, method='nms')
 
     image = draw_bbox(original_image, bboxes, CLASSES=CLASSES, rectangle_colors=rectangle_colors)
-    # CreateXMLfile("XML_Detections", str(int(time.time())), original_image, bboxes, read_class_names(CLASSES))
+    CreateXMLfile("XML_Detections", str(int(time.time())), original_image, bboxes, read_class_names(CLASSES))
 
     if output_path != '': cv2.imwrite(output_path, image)
     if show:
@@ -490,15 +482,15 @@ def detect_video(Yolo, video_path, output_path, input_size=416, show=False, CLAS
         fps2 = 1000 / (sum(times_2)/len(times_2)*1000)
         
         image = cv2.putText(image, "Time: {:.1f}FPS".format(fps), (0, 30), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (0, 0, 255), 2)
-        # CreateXMLfile("XML_Detections", str(int(time.time())), original_image, bboxes, read_class_names(CLASSES))
+        CreateXMLfile("XML_Detections", str(int(time.time())), original_image, bboxes, read_class_names(CLASSES))
         
         print("Time: {:.2f}ms, Detection FPS: {:.1f}, total FPS: {:.1f}".format(ms, fps, fps2))
         if output_path != '': out.write(image)
         if show:
             cv2.imshow('output', image)
             if cv2.waitKey(25) & 0xFF == ord("q"):
-                cv2.destroyAllWindows()
-                break
+  #              cv2.destroyAllWindows()
+                 break
 
     cv2.destroyAllWindows()
 
